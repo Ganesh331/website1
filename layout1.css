@@ -1,0 +1,32 @@
+.bg-container {
+    background-image: url("12.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    color: white;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    color: white;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+}
