@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.main{
+    margin:auto;
+    background-color: rgba(170, 0, 0, 0.342);
+    width: 300px;
+    padding: 10px;
+
+    transform: translateY(50%);
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid snow;
+}
+
+.buttons{
+    margin-top: 30px;
+    background-color: blue;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background: black;
+}
+
+input{
+    color: wheat;
+}
+
+input::placeholder{
+    color: white;
+}
+
+p{
+    color: white;
+    margin-top: 30px;
+    font-weight: 900;
+}
