@@ -41,12 +41,16 @@
     border-radius: 8px;
     padding: 16px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 25px; */
   }
   .favourite-place-card-heading {
     color: #0f0e46;
     font-family: "Roboto";
     font-size: 23px;
     font-weight: bold;
+  
   }
   .favourite-place-card-description {
     color: #6c6b70;
